@@ -1,5 +1,7 @@
 # MSSQL Connection Helper
 
+![GitHub all releases](https://img.shields.io/github/downloads/brunnexo/mssql-conn/total?style=plastic)
+
 Módulo Node.js para facilitar a comunicação com o Microsoft SQL Server
 
 ## Instalação
