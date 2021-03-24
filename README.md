@@ -37,8 +37,8 @@ let test = new MSSQL({
     }
 });
 
-//Conecta ao banco de dados
-//Este comando serve para fins de teste, ao usar select ou execute
+//Conectar ao banco de dados
+//Este comando serve para fins de teste, ao usar select ou execute, a instância tentará se conectar automaticamente.
 
 test.connect()
     .then(e => {
