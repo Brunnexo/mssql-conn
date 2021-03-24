@@ -1,8 +1,10 @@
 {
-  "name": "mssql-helper",
-  "version": "0.0.1",
-  "description": "MSSQL connection helper",
-  "main": "index.js",
+  "name": "mssql-conn",
+  "version": "0.0.3",
+  "description": "Microsoft SQL Connection Helper",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": "lib/cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brunnexo/mssql-helper.git"
@@ -20,10 +22,10 @@
   },
   "homepage": "https://github.com/Brunnexo/mssql-helper#readme",
   "dependencies": {
+    "@types/tedious": "^4.0.3",
     "mssql": "^6.3.1"
   },
   "devDependencies": {
-    "@types/tedious": "^4.0.3",
     "typescript": "^4.2.3"
   }
 }
