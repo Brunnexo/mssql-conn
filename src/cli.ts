@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import MSSQL from './index';
 const ARGS: string[] = process.argv.slice(2);
 function testConnection(props: { server: string; userName: string; password: string; database: string; }) {
